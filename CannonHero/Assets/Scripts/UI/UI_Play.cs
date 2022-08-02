@@ -6,8 +6,8 @@ public class UI_Play : MonoBehaviour
 
     private void OnEnable()
     {
-        //score.transform.localScale = Vector3.zero;
-        //LeanTween.scale(score, Vector3.one, 0.3f).setEaseInBack().setDelay(0.2f);
+        score.transform.localScale = Vector3.zero;
+        LeanTween.scale(score, Vector3.one, 0.2f).setEaseInBack().setDelay(0.2f);
     }
 
     public void Disable()

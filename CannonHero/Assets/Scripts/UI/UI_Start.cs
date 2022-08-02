@@ -18,11 +18,11 @@ public class UI_Start : MonoBehaviour
         bestScore.transform.localScale = Vector3.zero;
         LeanTween.scale(bestScore, Vector3.one, 1f).setEaseOutQuart();
 
-        LeanTween.moveLocal(musicButton, new Vector3(-430f, -940f), 0.5f).setEaseOutBack().setDelay(0.1f);
-        LeanTween.moveLocal(soundButton, new Vector3(-230f, -940f), 0.5f).setEaseOutBack().setDelay(0.15f);
-        LeanTween.moveLocal(shopButton, new Vector3(0f, -940f), 0.5f).setEaseOutBack().setDelay(0.2f);
-        LeanTween.moveLocal(rankingButton, new Vector3(230f, -940f), 0.5f).setEaseOutBack().setDelay(0.15f);
-        LeanTween.moveLocal(ratingButton, new Vector3(430f, -940f), 0.5f).setEaseOutBack().setDelay(0.1f);
+        LeanTween.moveLocal(musicButton, new Vector3(-430f, -940f), 0.4f).setEaseOutBack().setDelay(0f);
+        LeanTween.moveLocal(soundButton, new Vector3(-230f, -940f), 0.35f).setEaseOutBack().setDelay(0.05f);
+        LeanTween.moveLocal(shopButton, new Vector3(0f, -940f), 0.3f).setEaseOutBack().setDelay(0.1f);
+        LeanTween.moveLocal(rankingButton, new Vector3(230f, -940f), 0.35f).setEaseOutBack().setDelay(0.05f);
+        LeanTween.moveLocal(ratingButton, new Vector3(430f, -940f), 0.4f).setEaseOutBack().setDelay(0f);
     }
 
     private void OnTitleComplete()
@@ -33,8 +33,8 @@ public class UI_Start : MonoBehaviour
 
     public void Disable()
     {
-        LeanTween.scale(titleGame, Vector3.zero, 0.5f).setEaseInBack().setOnComplete(OnCompleteDisable);
-        LeanTween.scale(bestScore, Vector3.zero, 0.5f).setEaseInBack();
+        LeanTween.scale(titleGame, Vector3.zero, 0.4f).setEaseInBack().setOnComplete(OnCompleteDisable);
+        LeanTween.scale(bestScore, Vector3.zero, 0);
 
         LeanTween.moveLocal(musicButton, new Vector3(-430f, -1300f), 0.3f).setEaseInBack().setDelay(0.1f);
         LeanTween.moveLocal(soundButton, new Vector3(-230f, -1300f), 0.35f).setEaseInBack().setDelay(0.05f);

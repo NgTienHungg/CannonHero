@@ -663,7 +663,7 @@ MonoBehaviour:
   - {fileID: 7998713019600142960}
   - {fileID: 2364739105625923120}
   - {fileID: 6193649649190291012}
-  timeToDisable: 0.6
+  timeToDisable: 0.3
   rangeX: {x: -150, y: 150}
   rangeY: {x: 100, y: 200}
 --- !u!1 &6193649649190291012
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 1270215976404315902}
   fireForce: 0
-  aimingSpeed: 68
+  aimingSpeed: 70
   layersToHit:
     serializedVersion: 2
     m_Bits: 1024

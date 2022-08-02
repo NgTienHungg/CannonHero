@@ -408,7 +408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2921287927271828119}
   fireForce: 800
-  aimingSpeed: 65
+  aimingSpeed: 68
   cannonBullet: {fileID: 8647757829247616306}
 --- !u!50 &6306027463468512668
 Rigidbody2D:

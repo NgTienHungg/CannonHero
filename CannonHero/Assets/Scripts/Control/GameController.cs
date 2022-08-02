@@ -139,7 +139,7 @@ public class GameController : MonoBehaviour
     public void OnWatchAdToRevive()
     {
         AudioManager.Instance.PlaySound("Tap");
-        Application.OpenURL("https://github.com/NgTienHungg");
+        //Application.OpenURL("https://github.com/NgTienHungg");
         OnRevive();
     }
 }

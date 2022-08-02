@@ -803,7 +803,7 @@ MonoBehaviour:
   - {fileID: 7998713019600142960}
   - {fileID: 2364739105625923120}
   - {fileID: 6193649649190291012}
-  timeToDisable: 0.6
+  timeToDisable: 0.3
   rangeX: {x: -150, y: 150}
   rangeY: {x: 100, y: 200}
 --- !u!1 &5633368856855114845
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePoint: {fileID: 2022115200239688220}
   fireForce: 650
-  aimingSpeed: 66
+  aimingSpeed: 70
   timeBetweenFirings: 0.2
   chrismasBullets:
   - {fileID: 5633368856855114845}

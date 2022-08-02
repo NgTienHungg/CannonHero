@@ -132,7 +132,7 @@ public class GamePlay : MonoBehaviour
     private IEnumerator ChangeTurn()
     {
         GamePlay.isPlayerTurn = false;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         GamePlay.isEnemyTurn = true;
     }
 }

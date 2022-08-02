@@ -111,11 +111,11 @@ public class Enemy : MonoBehaviour
 
         int coin;
         if (GamePlay.isCrazing)
-            coin = Random.Range(10, 12);
+            coin = Random.Range(12, 15);
         else if (GamePlay.isHeadShot)
-            coin = Random.Range(6, 8);
+            coin = Random.Range(8, 10);
         else
-            coin = Random.Range(3, 4);
+            coin = Random.Range(4, 6);
 
         ParticleSystem ps = Instantiate(coinEff, transform.position, Quaternion.identity).GetComponent<ParticleSystem>();
         ps.emission.SetBursts(new ParticleSystem.Burst[] { new ParticleSystem.Burst(0f, coin) });
